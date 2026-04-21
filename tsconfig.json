@@ -14,7 +14,12 @@
     "jsx": "preserve",
     "incremental": true,
     "plugins": [{ "name": "next" }],
-    "paths": { "@/*": ["./*"] }
+    "paths": {
+      "@/*": ["./*"],
+      "@studio/shared": ["./vendor/studio-shared/index"],
+      "@studio/shared/specs": ["./vendor/studio-shared/specs/index"],
+      "@studio/shared/animation": ["./vendor/studio-shared/animation-presets"]
+    }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
   "exclude": ["node_modules"]
