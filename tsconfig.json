@@ -1,7 +1,11 @@
 {
   "compilerOptions": {
     "target": "ES2022",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -13,14 +17,33 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
-    "plugins": [{ "name": "next" }],
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
     "paths": {
-      "@/*": ["./*"],
-      "@studio/shared": ["./vendor/studio-shared/index"],
-      "@studio/shared/specs": ["./vendor/studio-shared/specs/index"],
-      "@studio/shared/animation": ["./vendor/studio-shared/animation-presets"]
+      "@/*": [
+        "./*"
+      ],
+      "@studio/shared": [
+        "./vendor/studio-shared/index"
+      ],
+      "@studio/shared/specs": [
+        "./vendor/studio-shared/specs/index"
+      ],
+      "@studio/shared/animation": [
+        "./vendor/studio-shared/animation-presets"
+      ]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-  "exclude": ["node_modules"]
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }

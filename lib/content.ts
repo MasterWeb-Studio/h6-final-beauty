@@ -1,7 +1,7 @@
 import type { ContentPlan } from './content-types';
 
 // Bu dosya frontend-builder tarafından güncellendi (polish sonrası).
-// Son güncelleme: 2026-04-21T11:43:09.277Z
+// Son güncelleme: 2026-04-24T15:19:13.932Z
 export const content: ContentPlan = {
   "meta": {
     "companyName": "Atelier Bella",
@@ -99,8 +99,8 @@ export const content: ContentPlan = {
       "sections": [
         {
           "type": "hero",
-          "headline": "Kendinize döndüğünüz yer.",
-          "subheadline": "Her dokunuşta bir his, her ziyarette yalnızca size ait bir an.",
+          "headline": "Bakım, bir ritüele dönüştüğünde.",
+          "subheadline": "Işık, doku, sessizlik — ve yalnızca size ayrılmış bir zaman.",
           "primaryCta": {
             "label": "Randevu Alın",
             "href": "/contact"
@@ -212,8 +212,8 @@ export const content: ContentPlan = {
         },
         {
           "type": "cta",
-          "headline": "Bakım bir lüks değil, kendine bir söz.",
-          "subheadline": "Bir randevuyla başlar — sessiz, özenli, yalnızca senin için.",
+          "headline": "Bir nefes, sadece senin için.",
+          "subheadline": "Her randevu, günün geri kalanından sıyrıldığın küçük bir kaçamak.",
           "primaryCta": {
             "label": "Randevu Alın",
             "href": "/contact"
