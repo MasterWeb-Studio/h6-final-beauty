@@ -37,7 +37,13 @@ export type SectionImage =
 // ===========================================================================
 
 // H5 Ayak B — Hero layout varyantı. Design Analyst seçer, scaffolder yazar.
-export type HeroVariant = 'left-aligned' | 'centered' | 'split' | 'fullbleed';
+// Sprint 22.5 — `display-typography` eklendi (typography-as-art, görsel yok).
+export type HeroVariant =
+  | 'left-aligned'
+  | 'centered'
+  | 'split'
+  | 'fullbleed'
+  | 'display-typography';
 
 export interface HeroSection {
   type: 'hero';
@@ -59,7 +65,8 @@ export interface FeatureGridSection {
   eyebrow?: string;
   headline: string;
   description?: string;
-  items: Array<{ icon: string; title: string; description: string }>;
+  // Sprint 22.5: opsiyonel item.image (two-col + icon-top variant'larında render).
+  items: Array<{ icon: string; title: string; description: string; image?: SectionImage }>;
   variant?: FeatureGridVariant;
 }
 
@@ -88,6 +95,8 @@ export interface ServicesSection {
     description: string;
     bullets?: string[];
     price?: string;
+    // Sprint 22.5: opsiyonel item.image (cards variant'ında render).
+    image?: SectionImage;
   }>;
   variant?: ServicesVariant;
 }

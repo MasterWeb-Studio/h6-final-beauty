@@ -1,8 +1,8 @@
-# Maison Nişantaşı
+# Atelier Bella
 
-Kendinize ayırdığınız o özel saat.
+Güzelliğinizin yeni gizli adresi.
 
-Nişantaşı'nda premium cilt bakımı, saç ve masaj ritüelleri. Lüks ve sakin bir kaçış noktasında kişisel ilgiyle hazırlanmış deneyimler.
+Nişantaşı'nda cilt bakımı, saç ve masaj ritüelleri sunan premium güzellik atölyesi. Her ziyaret özenle tasarlanmış bir deneyime dönüşür.
 
 ## Başlangıç
 
@@ -25,7 +25,7 @@ npm run start
 Proje içinde `/admin` panelinden dashboard ve içerik editörüne erişebilirsin.
 
 - **URL:** http://localhost:3000/admin/login
-- **Şifre:** `39032989-1eaf-47d5-86b6-50eb36c722a8`
+- **Şifre:** `48ff2b38-f5d5-4085-a6da-5f35375a2fe4`
 
 Bu şifreyi güvenli yere kaydedin — kaybolursa `.env.local` dosyasındaki `ADMIN_PASSWORD` satırını değiştirip yeniden girebilirsiniz.
 
