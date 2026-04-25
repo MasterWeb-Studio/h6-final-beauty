@@ -1,12 +1,12 @@
 import type { ContentPlan } from './content-types';
 
 // Bu dosya frontend-builder tarafından güncellendi (polish sonrası).
-// Son güncelleme: 2026-04-24T15:19:13.932Z
+// Son güncelleme: 2026-04-25T14:27:07.686Z
 export const content: ContentPlan = {
   "meta": {
-    "companyName": "Atelier Bella",
-    "tagline": "Bakım bir lüks değil, kendine bir söz.",
-    "description": "Atelier Bella'da cilt bakımı ve saç bakımı bir ritüele dönüşür. Premium hizmetler, özenli dokunuşlar ve lüks bir atmosfer sizi bekliyor.",
+    "companyName": "Maison Nişantaşı",
+    "tagline": "Kendinize ayırdığınız o özel saat.",
+    "description": "Nişantaşı'nda premium cilt bakımı, saç ve masaj ritüelleri. Lüks ve sakin bir kaçış noktasında kişisel ilgiyle hazırlanmış deneyimler.",
     "language": "tr",
     "navigation": [
       {
@@ -22,7 +22,7 @@ export const content: ContentPlan = {
         "href": "/services"
       },
       {
-        "label": "Ekibimiz",
+        "label": "Uzmanlarımız",
         "href": "/team"
       },
       {
@@ -31,10 +31,10 @@ export const content: ContentPlan = {
       }
     ],
     "footer": {
-      "about": "Atelier Bella, her ziyareti kişisel bir kaçamağa dönüştüren premium bir güzellik adresidir. Cilt ve saç bakımında özenli deneyimler sunuyoruz.",
+      "about": "Maison Nişantaşı, İstanbul'un kalbinde kişisel bakımı bir ritüele dönüştüren premium güzellik stüdyosudur. Her ziyaret, size özel tasarlanmış bir deneyimdir.",
       "columns": [
         {
-          "title": "Keşfet",
+          "title": "Keşfedin",
           "links": [
             {
               "label": "Hakkımızda",
@@ -45,13 +45,13 @@ export const content: ContentPlan = {
               "href": "/services"
             },
             {
-              "label": "Ekibimiz",
+              "label": "Uzmanlarımız",
               "href": "/team"
             }
           ]
         },
         {
-          "title": "Randevu",
+          "title": "Ziyaret",
           "links": [
             {
               "label": "Randevu Al",
@@ -67,7 +67,7 @@ export const content: ContentPlan = {
               "href": "/kvkk"
             },
             {
-              "label": "Gizlilik Politikası",
+              "label": "Gizlilik",
               "href": "/gizlilik"
             },
             {
@@ -77,15 +77,15 @@ export const content: ContentPlan = {
           ]
         }
       ],
-      "copyright": "© 2026 Atelier Bella. Tüm hakları saklıdır.",
+      "copyright": "© 2026 Maison Nişantaşı. Tüm hakları saklıdır.",
       "social": [
         {
           "platform": "instagram",
-          "url": "https://instagram.com/atelierbella"
+          "url": "https://instagram.com/maisonnisantasi"
         },
         {
           "platform": "linkedin",
-          "url": "https://linkedin.com/company/atelierbella"
+          "url": "https://linkedin.com/company/maisonnisantasi"
         }
       ]
     }
@@ -94,13 +94,13 @@ export const content: ContentPlan = {
     {
       "slug": "home",
       "title": "Ana Sayfa",
-      "metaTitle": "Atelier Bella | Premium Güzellik & Bakım Salonu",
-      "metaDescription": "Atelier Bella'da cilt bakımı ve saç bakımı bir ritüele dönüşür. Lüks atmosfer, uzman eller ve size özel deneyimler.",
+      "metaTitle": "Maison Nişantaşı | Premium Güzellik & Bakım Ritüelleri",
+      "metaDescription": "Nişantaşı'nda cilt bakımı, saç ve masaj ritüelleri. Lüks, sakin ve size özel bir kaçış noktası sizi bekliyor.",
       "sections": [
         {
           "type": "hero",
-          "headline": "Bakım, bir ritüele dönüştüğünde.",
-          "subheadline": "Işık, doku, sessizlik — ve yalnızca size ayrılmış bir zaman.",
+          "headline": "Nişantaşı'nın en sakin lüksü, sizi bekliyor.",
+          "subheadline": "Cildinize ve saçınıza dokunan özenli ritüeller — her ziyaret, yalnızca size adanmış bir saat.",
           "primaryCta": {
             "label": "Randevu Alın",
             "href": "/contact"
@@ -119,37 +119,37 @@ export const content: ContentPlan = {
         },
         {
           "type": "feature-grid",
-          "headline": "Neden Atelier Bella?",
+          "headline": "Farkımız Ne?",
           "items": [
             {
               "icon": "Sparkles",
-              "title": "Kişiye Özel Bakım",
-              "description": "Her seans, cildinizin ve saçınızın ihtiyacına göre ayrıca hazırlanır."
+              "title": "Kişiye Özel Ritüel",
+              "description": "Her ziyaret, cilt tipinize ve o günkü halinize göre yeniden tasarlanır."
             },
             {
               "icon": "Leaf",
-              "title": "Seçkin Ürünler",
-              "description": "Yalnızca premium, cilde duyarlı markalarla çalışıyoruz."
+              "title": "Seçkin Ürün Kadrosu",
+              "description": "Yalnızca premium, cilde saygılı formülasyonlar kullanıyoruz."
             },
             {
               "icon": "Clock",
-              "title": "Kolay Randevu",
-              "description": "Online randevu sistemiyle zamanınızı en rahat şekilde planlayın."
+              "title": "Zamanınıza Saygı",
+              "description": "Randevular dakikası dakikasına; bekleme yok, acele yok."
             },
             {
-              "icon": "Heart",
-              "title": "Sakin Bir Atmosfer",
-              "description": "Her detay, sizi günlük koşuşturmadan uzaklaştırmak için düşünüldü."
+              "icon": "MapPin",
+              "title": "Nişantaşı'nın Kalbinde",
+              "description": "Şehrin gürültüsünden soyutlanmış, butik ve sakin bir atmosfer."
             }
           ],
           "variant": "icon-top"
         },
         {
           "type": "about",
-          "headline": "Bir Ritüelin Adresi",
+          "headline": "Bir Ritüelin Doğuşu",
           "body": [
-            "Atelier Bella, bakımı bir görev olmaktan çıkarıp kendinize verdiğiniz en güzel söze dönüştürmek için kuruldu. Yumuşak ışıklar, özenle seçilmiş dokular ve deneyimli eller — her şey sizi karşılamak için burada.",
-            "Cilt bakımından saç ritüellerine uzanan hizmet yelpazesiyle, her ziyarette kendinizi yeniden keşfetmenizi sağlıyoruz."
+            "Maison Nişantaşı, güzelliği bir zorunluluk değil, kendinize verdiğiniz en değerli hediye olarak görenlerin mekânıdır. Her detay — ışıktan kokuya, dokunuştan sessizliğe — sizi yavaşlatmak için kurgulandı.",
+            "Uzman kadromuz, her ziyareti sizinle birlikte şekillendirir. Burada standart bir protokol değil, size ait bir deneyim yaşarsınız."
           ],
           "variant": "with-image",
           "image": {
@@ -165,23 +165,23 @@ export const content: ContentPlan = {
         },
         {
           "type": "services",
-          "headline": "Sunduğumuz Deneyimler",
+          "headline": "Ritüellerimiz",
           "items": [
             {
-              "title": "Cilt Bakımı Ritüeli",
-              "description": "Derin temizleme, nemlendirme ve cilt tipine özel serum uygulamalarını kapsayan bütünsel bir cilt bakım seansı."
+              "title": "Cilt Bakımı",
+              "description": "Cilt tipinize özel derin temizleme, nemlendirme ve yenileme seansları. Işıltılı ve dinlenmiş bir cilt için."
             },
             {
               "title": "Saç Bakımı & Şekillendirme",
-              "description": "Saç yapısını güçlendiren bakım protokolleri ve profesyonel şekillendirme hizmetleri."
+              "description": "Saç analizinden bakım uygulamasına, kesimden şekillendirmeye — saçınıza hak ettiği özen."
             },
             {
-              "title": "Makyaj & Özel Gün",
-              "description": "Günlük makyajdan özel gün hazırlığına, cildinizin ışıltısını öne çıkaran uygulamalar."
+              "title": "Masaj & Vücut Ritüeli",
+              "description": "Aromatik yağlarla derin doku masajı ve vücut bakımı. Gerilimi bırakın, yenilenin."
             },
             {
-              "title": "El & Tırnak Bakımı",
-              "description": "Nemlendirici el bakımı ve kalıcı oje uygulamalarıyla tamamlanan özenli bir bakım deneyimi."
+              "title": "Kombin Paketler",
+              "description": "Cilt, saç ve masajı bir araya getiren özel günler. Kendinize yarım gün ayırın."
             }
           ],
           "variant": "table"
@@ -212,10 +212,10 @@ export const content: ContentPlan = {
         },
         {
           "type": "cta",
-          "headline": "Bir nefes, sadece senin için.",
-          "subheadline": "Her randevu, günün geri kalanından sıyrıldığın küçük bir kaçamak.",
+          "headline": "Kendinize bir saat ayırın.",
+          "subheadline": "Randevunuzu alın — ritüelinizin geri kalanını biz hazırlayalım.",
           "primaryCta": {
-            "label": "Randevu Alın",
+            "label": "Randevunuzu Alın",
             "href": "/contact"
           },
           "variant": "inline"
@@ -225,42 +225,32 @@ export const content: ContentPlan = {
     {
       "slug": "about",
       "title": "Hakkımızda",
-      "metaTitle": "Hakkımızda | Atelier Bella",
-      "metaDescription": "Atelier Bella'nın hikayesini, değerlerini ve sizi karşılayan uzman ekibini keşfedin. Bakım burada bir ritüele dönüşür.",
+      "metaTitle": "Hakkımızda | Maison Nişantaşı",
+      "metaDescription": "Maison Nişantaşı'nın hikâyesi: Nişantaşı'nda lüks ve özenle kurulan bir güzellik ritüelinin arka planı.",
       "sections": [
         {
           "type": "hero",
-          "headline": "Her detay, senin için düşünüldü.",
-          "subheadline": "Atelier Bella, güzelliği bir deneyim olarak yeniden tanımlamak için doğdu.",
-          "variant": "centered",
-          "image": {
-            "type": "remote",
-            "url": "https://images.pexels.com/photos/7195812/pexels-photo-7195812.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-            "alt": "Backwash chair with sink placed near shelves with cosmetology products and reception desk in stylish beauty salon with decorated walls",
-            "credit": "Max Vakhtbovych / pexels",
-            "creditUrl": "https://www.pexels.com/@artbovich",
-            "color": "#8D837A",
-            "width": 7111,
-            "height": 4746
-          }
+          "headline": "Özenin bir adresi var.",
+          "subheadline": "Nişantaşı'nın en sakin köşesinde, her detayı düşünülmüş bir deneyim.",
+          "variant": "centered"
         },
         {
           "type": "about",
-          "headline": "Bakımın Ötesinde Bir Yer",
+          "headline": "Nasıl Başladı?",
           "body": [
-            "Atelier Bella, kendine ayırdığı zamanın kalitesine önem veren kadınlar için tasarlandı. Salonun her köşesi, ziyaretçisine huzur ve özen hissettirmek amacıyla şekillendirildi — doğru ışıktan seçilen kokuya, kullanılan ürünlerden dokunuş biçimine kadar.",
-            "Ekibimiz, teknik uzmanlığı sıcak bir karşılamayla buluşturuyor. Burada her seans bir prosedür değil, size özel bir ritüel."
+            "Maison Nişantaşı, güzellik bakımının bir rutinden çok bir ritüele dönüşebileceğine inanan bir ekip tarafından kuruldu. Nişantaşı'nın zarif dokusuna uygun, sakin ve butik bir alan yaratmak istedik.",
+            "Bugün, cilt bakımı, saç ve masaj alanlarında uzman ekibimizle her ziyareti kişiye özel bir deneyime dönüştürüyoruz. Standart protokoller değil, sizi dinleyerek şekillenen ritüeller."
           ],
           "variant": "with-image",
           "image": {
             "type": "remote",
-            "url": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MzA1NTV8MHwxfHNlYXJjaHwyfHxiZWF1dHklMjBwcm9mZXNzaW9uYWwlMjBhcHBseWluZyUyMHNraW5jYXJlJTIwdHJlYXRtZW50JTIwY2xvc2UlMjB1cHxlbnwxfDB8fHwxNzc2NzcxNzc5fDA&ixlib=rb-4.1.0&q=80&w=1080",
-            "alt": "man wearing mud mask",
-            "credit": "Rosa Rafael / unsplash",
-            "creditUrl": "https://unsplash.com/@rosarafael",
-            "color": "#d9d9d9",
-            "width": 6000,
-            "height": 4000
+            "url": "https://images.pexels.com/photos/33412989/pexels-photo-33412989.png?auto=compress&cs=tinysrgb&h=650&w=940",
+            "alt": "Elegant beauty salon interior with minimalist design and calming ambiance for relaxation and pampering.",
+            "credit": "The Ghazi / pexels",
+            "creditUrl": "https://www.pexels.com/@the-ghazi-2152398165",
+            "color": "#BFB5A7",
+            "width": 2560,
+            "height": 1623
           }
         },
         {
@@ -268,19 +258,19 @@ export const content: ContentPlan = {
           "headline": "Değerlerimiz",
           "items": [
             {
+              "icon": "Heart",
+              "title": "Kişisel İlgi",
+              "description": "Her müşterimize ayrı zaman ve dikkat ayırıyoruz; kalabalık randevu kuyruğu yok."
+            },
+            {
+              "icon": "Shield",
+              "title": "Güvenilir Uygulama",
+              "description": "Cilde saygılı ürünler ve kanıtlanmış teknikler — hiçbir zaman deneysel değil."
+            },
+            {
               "icon": "Compass",
-              "title": "Özen Her Adımda",
-              "description": "Randevudan seansa, seansın sonrasına kadar her temas noktasında sizi düşünüyoruz."
-            },
-            {
-              "icon": "Award",
-              "title": "Uzman Ellerde Güven",
-              "description": "Ekibimiz, alanında deneyimli ve sürekli kendini geliştiren güzellik uzmanlarından oluşur."
-            },
-            {
-              "icon": "Layers",
-              "title": "Bütünsel Yaklaşım",
-              "description": "Cilt, saç ve genel bakımı birbirini tamamlayan bir bütün olarak görüyoruz."
+              "title": "Sürekli Gelişim",
+              "description": "Ekibimiz düzenli eğitimlerle güzellik alanındaki yenilikleri yakından takip eder."
             }
           ],
           "variant": "icon-top"
@@ -288,9 +278,9 @@ export const content: ContentPlan = {
         {
           "type": "cta",
           "headline": "Sizi tanımak isteriz.",
-          "subheadline": "İlk ziyaretinizi planlamak için randevu alın.",
+          "subheadline": "İlk ziyaretinizde size özel bir bakım analizi yapıyoruz.",
           "primaryCta": {
-            "label": "Randevu Al",
+            "label": "Randevu Alın",
             "href": "/contact"
           },
           "variant": "inline"
@@ -300,13 +290,13 @@ export const content: ContentPlan = {
     {
       "slug": "services",
       "title": "Hizmetler",
-      "metaTitle": "Hizmetler | Atelier Bella",
-      "metaDescription": "Atelier Bella'nın cilt bakımı, saç bakımı, makyaj ve tırnak hizmetlerini keşfedin. Her biri size özel, her biri bir deneyim.",
+      "metaTitle": "Hizmetler | Maison Nişantaşı",
+      "metaDescription": "Cilt bakımı, saç, masaj ve kombin ritüeller. Nişantaşı'nda size özel premium güzellik deneyimleri.",
       "sections": [
         {
           "type": "hero",
-          "headline": "Bakım, bir deneyim olarak.",
-          "subheadline": "Her hizmet, sizi en iyi hissettirmek için özenle tasarlandı.",
+          "headline": "Cildinize, saçınıza, ruhunuza.",
+          "subheadline": "Her ritüel ihtiyacınıza göre şekillenir. Standart yok, yalnızca siz varsınız.",
           "variant": "centered"
         },
         {
@@ -314,30 +304,30 @@ export const content: ContentPlan = {
           "headline": "Uzmanlık Alanlarımız",
           "items": [
             {
-              "title": "Cilt Bakımı Ritüeli",
-              "description": "Cilt analizinden başlayan, derin temizleme, peeling, serum ve maske uygulamalarını kapsayan kişiselleştirilmiş bir seans. Cildinizin ihtiyacına göre şekillenir."
+              "title": "Cilt Bakımı Ritüelleri",
+              "description": "Derin temizleme, nemlendirme, aydınlatma ve yaşlanma karşıtı seanslar. Cilt analizinizle başlayan, size özel formüle edilen bir bakım protokolü."
             },
             {
-              "title": "Saç Bakımı & Şekillendirme",
-              "description": "Saç yapısını güçlendiren keratin, nemlendirme ve onarım protokolleri. Kesim ve şekillendirme hizmetleriyle tamamlanır."
+              "title": "Saç Bakımı & Tasarım",
+              "description": "Saç analizi, onarıcı bakım uygulamaları, kesim ve şekillendirme. Saçınızın gerçek potansiyelini ortaya çıkarmak için uzman ellerde bir deneyim."
             },
             {
-              "title": "Makyaj & Özel Gün",
-              "description": "Günlük ışıltıdan özel gün hazırlığına uzanan makyaj uygulamaları. Cildinizin dokusunu ve tonunu öne çıkaran bir yaklaşımla."
+              "title": "Masaj & Aromatik Ritüeller",
+              "description": "Derin doku masajı, aromaterapik vücut bakımı ve rahatlama seansları. Zihin ve beden için tam bir sıfırlama."
             },
             {
-              "title": "El & Tırnak Bakımı",
-              "description": "Nemlendirici el masajı, tırnak şekillendirme ve kalıcı oje uygulamalarını kapsayan bütünsel bir bakım deneyimi."
+              "title": "Özel Günler & Kombin",
+              "description": "Birden fazla hizmeti bir araya getiren tam gün ya da yarım gün paketleri. Doğum günleri, özel davetler veya yalnızca kendinize ayırdığınız bir gün için."
             }
           ],
           "variant": "table"
         },
         {
           "type": "cta",
-          "headline": "Hangi deneyimle başlamak istersiniz?",
-          "subheadline": "Uzmanlarımız size en uygun hizmeti birlikte belirlesin.",
+          "headline": "Hangi ritüel sizi bekliyor?",
+          "subheadline": "Randevu alın, geri kalanını birlikte planlayalım.",
           "primaryCta": {
-            "label": "Randevu Al",
+            "label": "Randevu Alın",
             "href": "/contact"
           },
           "variant": "inline"
@@ -383,44 +373,40 @@ export const content: ContentPlan = {
     {
       "slug": "contact",
       "title": "Randevu",
-      "metaTitle": "Randevu Al | Atelier Bella",
-      "metaDescription": "Atelier Bella'da randevu almak için formu doldurun. Cilt bakımı, saç bakımı ve daha fazlası için sizi bekliyoruz.",
+      "metaTitle": "Randevu Alın | Maison Nişantaşı",
+      "metaDescription": "Maison Nişantaşı'nda randevu alın. Nişantaşı, İstanbul. Cilt bakımı, saç ve masaj için uygun zamanı seçin.",
       "sections": [
         {
           "type": "hero",
           "headline": "Sizi bekliyoruz.",
-          "subheadline": "Randevunuzu alın, gerisini biz düşünelim.",
+          "subheadline": "Randevunuzu alın, kapıdan adım attığınız an her şey hazır olsun.",
           "variant": "centered"
         },
         {
           "type": "appointment",
           "headline": "Randevu Alın",
-          "subheadline": "En kısa sürede size dönüş yapıyoruz.",
-          "note": "Pazar günleri kapalıyız. Tercih ettiğiniz saat müsait değilse sizi arayıp alternatif öneririz."
+          "subheadline": "En kısa sürede size dönüp randevunuzu onaylıyoruz.",
+          "note": "Pazar günleri kapalıyız. Tercih ettiğiniz saat müsait değilse sizi arayıp alternatif öneririz.",
+          "services": [
+            "Cilt Bakımı Ritüeli",
+            "Saç Bakımı & Tasarım",
+            "Masaj & Aromatik Ritüel",
+            "Kombin Paket"
+          ]
         }
       ]
     },
     {
       "slug": "team",
-      "title": "Ekibimiz",
-      "metaTitle": "Ekibimiz | Atelier Bella",
-      "metaDescription": "Atelier Bella'nın uzman güzellik ekibiyle tanışın. Deneyimli eller, sıcak bir karşılama ve size özel bakım anlayışı.",
+      "title": "Uzmanlarımız",
+      "metaTitle": "Uzmanlarımız | Maison Nişantaşı",
+      "metaDescription": "Maison Nişantaşı'nın uzman ekibiyle tanışın. Cilt, saç ve masaj alanlarında deneyimli, kişisel ilgiyle çalışan profesyoneller.",
       "sections": [
         {
           "type": "hero",
-          "headline": "Uzman eller, sıcak bir karşılama.",
-          "subheadline": "Ekibimiz, her ziyareti unutulmaz kılmak için burada.",
-          "variant": "centered",
-          "image": {
-            "type": "remote",
-            "url": "https://images.pexels.com/photos/5177990/pexels-photo-5177990.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-            "alt": "A professional makeup artist shapes a woman's eyebrows in a bright beauty studio.",
-            "credit": "Antoni Shkraba Studio / pexels",
-            "creditUrl": "https://www.pexels.com/@shkrabaanthony",
-            "color": "#B69E87",
-            "width": 4000,
-            "height": 2667
-          }
+          "headline": "Sizi en iyi ellere bırakın.",
+          "subheadline": "Her uzmanımız alanında derinleşmiş, sürekli gelişen bir profesyoneldir.",
+          "variant": "centered"
         },
         {
           "type": "team",
@@ -459,10 +445,10 @@ export const content: ContentPlan = {
         },
         {
           "type": "cta",
-          "headline": "Ekibimizle tanışmaya hazır mısınız?",
-          "subheadline": "İlk randevunuzu alın, size en uygun uzmanı birlikte belirleyelim.",
+          "headline": "Uzmanınızla tanışmaya hazır mısınız?",
+          "subheadline": "Randevu alın, size en uygun uzmanı birlikte belirleyelim.",
           "primaryCta": {
-            "label": "Randevu Al",
+            "label": "Randevu Alın",
             "href": "/contact"
           },
           "variant": "inline"
