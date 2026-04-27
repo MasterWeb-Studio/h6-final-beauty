@@ -2,7 +2,7 @@
 export const projectInfo = {
   slug: "h6-final-beauty",
   industry: "beauty",
-  generatedAt: "2026-04-25T20:18:12.622Z",
+  generatedAt: "2026-04-27T14:05:05.546Z",
 };
 
 export type ProjectInfo = typeof projectInfo;

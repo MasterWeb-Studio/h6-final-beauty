@@ -52,7 +52,7 @@ export default async function LocaleHome({
       <JsonLdScript data={website} />
       <JsonLdScript data={organization} />
       {home.sections.map((section, index) => (
-        <SectionRenderer key={index} section={section} />
+        <SectionRenderer key={index} section={section} locale={locale} />
       ))}
     </>
   );

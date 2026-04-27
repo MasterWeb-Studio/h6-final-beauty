@@ -1,8 +1,8 @@
-# Atelier Bella
+# Reine
 
-Güzelliğinizin yeni gizli adresi.
+Nişantaşı'nda, size ayrılmış bir saat.
 
-Nişantaşı'nda cilt bakımı, saç ve masaj ritüelleri sunan premium güzellik atölyesi. Her ziyaret özenle tasarlanmış bir deneyime dönüşür.
+Reine, Nişantaşı'nda cilt bakımı, saç ve masaj hizmetleri sunan premium güzellik atölyesi. Randevu için bizi arayın.
 
 ## Başlangıç
 
@@ -25,7 +25,7 @@ npm run start
 Proje içinde `/admin` panelinden dashboard ve içerik editörüne erişebilirsin.
 
 - **URL:** http://localhost:3000/admin/login
-- **Şifre:** `48ff2b38-f5d5-4085-a6da-5f35375a2fe4`
+- **Şifre:** `8468447b-c053-4656-909b-dd1df2956091`
 
 Bu şifreyi güvenli yere kaydedin — kaybolursa `.env.local` dosyasındaki `ADMIN_PASSWORD` satırını değiştirip yeniden girebilirsiniz.
 

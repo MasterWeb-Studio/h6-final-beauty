@@ -111,6 +111,33 @@ export interface CtaSection {
   image?: SectionImage;
 }
 
+// Sprint 23 G2 — Module home section (H6 modülleri home page'e entegre)
+export type ModuleHomeId =
+  | 'products'
+  | 'services'
+  | 'team'
+  | 'gallery'
+  | 'references'
+  | 'certificates'
+  | 'news'
+  | 'career'
+  | 'counter'
+  | 'newsletter'
+  | 'video'
+  | 'timeline'
+  | 'contact-cards'
+  | 'projects';
+
+export interface ModuleHomeSection {
+  type: 'module-home';
+  module: ModuleHomeId;
+  variant: string;
+  headline?: string;
+  description?: string;
+  count?: number;
+  selectionLogic?: 'latest' | 'featured' | 'random' | 'manual' | 'bestsellers';
+}
+
 export interface ContactSection {
   type: 'contact';
   headline: string;
@@ -232,6 +259,7 @@ export type Section =
   | CtaSection
   | ContactSection
   | AppointmentSection
+  | ModuleHomeSection
   | TestimonialsSection
   | FaqSection
   | StatsSection
