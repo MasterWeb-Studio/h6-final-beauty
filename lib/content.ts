@@ -1,12 +1,12 @@
 import type { ContentPlan } from './content-types';
 
 // Bu dosya frontend-builder tarafından güncellendi (polish sonrası).
-// Son güncelleme: 2026-04-27T14:05:15.096Z
+// Son güncelleme: 2026-04-27T14:29:20.787Z
 export const content: ContentPlan = {
   "meta": {
-    "companyName": "Reine",
+    "companyName": "Atelier Bella",
     "tagline": "Nişantaşı'nda, size ayrılmış bir saat.",
-    "description": "Reine, Nişantaşı'nda cilt bakımı, saç ve masaj hizmetleri sunan premium güzellik atölyesi. Randevu için bizi arayın.",
+    "description": "Atelier Bella, Nişantaşı'nda cilt bakımı, saç ve masaj hizmetleri sunan premium güzellik atölyesi. Randevu için bizi arayın.",
     "language": "tr",
     "navigation": [
       {
@@ -31,7 +31,7 @@ export const content: ContentPlan = {
       }
     ],
     "footer": {
-      "about": "Reine, Nişantaşı'nın kalbinde bir güzellik atölyesi. Her dokunuş özen ve kişisel ritüel duygusuyla şekilleniyor.",
+      "about": "Atelier Bella, Nişantaşı'nın kalbinde bir güzellik atölyesi. Her dokunuş özen ve kişisel ritüel duygusuyla şekilleniyor.",
       "columns": [
         {
           "title": "Keşfet",
@@ -85,7 +85,7 @@ export const content: ContentPlan = {
           ]
         }
       ],
-      "copyright": "© 2026 Reine. Tüm hakları saklıdır.",
+      "copyright": "© 2026 Atelier Bella. Tüm hakları saklıdır.",
       "social": [
         {
           "platform": "instagram",
@@ -103,12 +103,12 @@ export const content: ContentPlan = {
       "slug": "home",
       "title": "Ana Sayfa",
       "metaTitle": "Premium Güzellik Atölyesi — Cilt, Saç, Masaj",
-      "metaDescription": "Nişantaşı'nda cilt bakımı, saç ve masaj hizmetleriyle kendinize özel bir ritüel. Reine'de randevu alın.",
+      "metaDescription": "Nişantaşı'nda cilt bakımı, saç ve masaj hizmetleriyle kendinize özel bir ritüel. Atelier Bella'de randevu alın.",
       "sections": [
         {
           "type": "hero",
-          "headline": "Kendinize ayrılan saatin adresi.",
-          "subheadline": "Nişantaşı'nda cilt, saç ve masaj; her dokunuş yalnızca size göre şekillenir.",
+          "headline": "Özenin bir ritüele dönüştüğü yer.",
+          "subheadline": "Nişantaşı'nda size ayrılmış bir saatte cilt, saç ve masaj; her dokunuş yalnızca sizin için.",
           "primaryCta": {
             "label": "Randevu Alın",
             "href": "/contact"
@@ -129,7 +129,7 @@ export const content: ContentPlan = {
           "type": "about",
           "headline": "Bir Atölyenin Sessiz Özeni",
           "body": [
-            "Reine, güzelliği bir ritüele dönüştüren bir atölye. Nişantaşı'nın kalbinde, her detay sizin için düşünülmüş bir alanda; cilt bakımından saça, masajdan kişisel bakım seanslarına kadar uzanan bir deneyim sunuyoruz.",
+            "Atelier Bella, güzelliği bir ritüele dönüştüren bir atölye. Nişantaşı'nın kalbinde, her detay sizin için düşünülmüş bir alanda; cilt bakımından saça, masajdan kişisel bakım seanslarına kadar uzanan bir deneyim sunuyoruz.",
             "Burada zaman yavaşlar. Her randevu, size ayrılmış bir saate dönüşür."
           ],
           "variant": "with-image",
@@ -146,7 +146,7 @@ export const content: ContentPlan = {
         },
         {
           "type": "feature-grid",
-          "headline": "Reine Farkı",
+          "headline": "Atelier Bella Farkı",
           "items": [
             {
               "icon": "Sparkles",
@@ -237,7 +237,7 @@ export const content: ContentPlan = {
         {
           "type": "cta",
           "headline": "Elleriniz bu özeni hak ediyor.",
-          "subheadline": "Nişantaşı'nda, yalnızca size ayrılmış bir saat — her dokunuşta hissedilen fark ile.",
+          "subheadline": "Nişantaşı'nda, yalnızca size ayrılmış bir saatin sessizliğine davetlisiniz.",
           "primaryCta": {
             "label": "Yerinizi Ayırtın",
             "href": "/contact"
@@ -259,8 +259,8 @@ export const content: ContentPlan = {
     {
       "slug": "about",
       "title": "Hakkımızda",
-      "metaTitle": "Hakkımızda — Reine'nin Hikayesi",
-      "metaDescription": "Reine, Nişantaşı'nda güzelliği kişisel bir ritüele dönüştüren premium güzellik atölyesi. Hikayemizi keşfedin.",
+      "metaTitle": "Hakkımızda — Atelier Bella'nin Hikayesi",
+      "metaDescription": "Atelier Bella, Nişantaşı'nda güzelliği kişisel bir ritüele dönüştüren premium güzellik atölyesi. Hikayemizi keşfedin.",
       "sections": [
         {
           "type": "hero",
@@ -270,10 +270,10 @@ export const content: ContentPlan = {
         },
         {
           "type": "about",
-          "headline": "Reine Nasıl Doğdu?",
+          "headline": "Atelier Bella Nasıl Doğdu?",
           "body": [
-            "Reine, güzellik bakımını bir zorunluluktan öte, kişisel bir ritüele dönüştürme arzusundan doğdu. Nişantaşı'nın estetik dokusuna uygun bir atölye kurmak; her misafiri gerçekten dinleyen, ona özel bir deneyim tasarlayan bir alan yaratmak istedik.",
-            "Bugün Reine; cilt bakımı, saç ve masaj hizmetleriyle, her ziyareti küçük ama anlamlı bir kaçışa dönüştürüyor."
+            "Atelier Bella, güzellik bakımını bir zorunluluktan öte, kişisel bir ritüele dönüştürme arzusundan doğdu. Nişantaşı'nın estetik dokusuna uygun bir atölye kurmak; her misafiri gerçekten dinleyen, ona özel bir deneyim tasarlayan bir alan yaratmak istedik.",
+            "Bugün Atelier Bella; cilt bakımı, saç ve masaj hizmetleriyle, her ziyareti küçük ama anlamlı bir kaçışa dönüştürüyor."
           ],
           "variant": "with-image",
           "image": {
@@ -312,7 +312,7 @@ export const content: ContentPlan = {
         {
           "type": "cta",
           "headline": "Sizi tanımak isteriz.",
-          "subheadline": "İlk randevunuzu alın; Reine'yi bizzat hissedin.",
+          "subheadline": "İlk randevunuzu alın; Atelier Bella'yi bizzat hissedin.",
           "primaryCta": {
             "label": "Randevu Alın",
             "href": "/contact"
@@ -325,7 +325,7 @@ export const content: ContentPlan = {
       "slug": "services",
       "title": "Hizmetler",
       "metaTitle": "Hizmetler — Cilt Bakımı, Saç ve Masaj",
-      "metaDescription": "Reine'de cilt bakımı, saç bakımı ve masaj hizmetleri. Nişantaşı'nda size özel randevu alın.",
+      "metaDescription": "Atelier Bella'de cilt bakımı, saç bakımı ve masaj hizmetleri. Nişantaşı'nda size özel randevu alın.",
       "sections": [
         {
           "type": "hero",
@@ -431,8 +431,8 @@ export const content: ContentPlan = {
     {
       "slug": "contact",
       "title": "Randevu",
-      "metaTitle": "Randevu Alın — Nişantaşı Reine",
-      "metaDescription": "Reine'de randevu almak için formu doldurun. Nişantaşı'nda cilt bakımı, saç ve masaj için sizi bekliyoruz.",
+      "metaTitle": "Randevu Alın — Nişantaşı Atelier Bella",
+      "metaDescription": "Atelier Bella'de randevu almak için formu doldurun. Nişantaşı'nda cilt bakımı, saç ve masaj için sizi bekliyoruz.",
       "sections": [
         {
           "type": "hero",
@@ -451,8 +451,8 @@ export const content: ContentPlan = {
     {
       "slug": "team",
       "title": "Ekibimiz",
-      "metaTitle": "Uzman Ekibimiz — Reine",
-      "metaDescription": "Reine'nin uzman güzellik ekibiyle tanışın. Cilt, saç ve masaj alanında deneyimli, özenli eller.",
+      "metaTitle": "Uzman Ekibimiz — Atelier Bella",
+      "metaDescription": "Atelier Bella'nin uzman güzellik ekibiyle tanışın. Cilt, saç ve masaj alanında deneyimli, özenli eller.",
       "sections": [
         {
           "type": "hero",
